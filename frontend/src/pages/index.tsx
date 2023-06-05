@@ -3,6 +3,7 @@ import Footer from "@/layout/footer";
 
 import Aboutus from "@/aboutus";
 
+
 export default function Home() {
   return (
     <>

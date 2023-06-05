@@ -17,11 +17,11 @@ const AboutLanding = () => {
                 {/* about */}
                 <div>
                     <Typewriter />
-                    <div className="flex flex-cols h-full container mx-auto px-4 pt-24 pb-32 md:px-8">
-                        <div className="w-1/2 min-h-full hidden flex place-items-center my-auto md:block">
+                    <div className="flex flex-cols h-full container  mx-auto px-4 pt-24 pb-32 md:px-8">
+                        <div className="w-1/2 min-h-full hidden flex my-auto md:block">
                             <div className="timeline-item">
                                 <div className="timeline-img"></div>
-                                <div className="timeline-content">
+                                <div className="timeline-content flex justify-center items-center"> {/* Added 'flex justify-center items-center' to center the content */}
                                     <Fade left>
                                         <div>
                                             <Image
@@ -35,6 +35,7 @@ const AboutLanding = () => {
                                 </div>
                             </div>
                         </div>
+
 
                         <div className="md:w-1/2 w-full items-center justify-center">
                             <div className="h-full flex flex-col items-start justify-center">
@@ -83,6 +84,7 @@ const AboutLanding = () => {
                     </div>
 
                     {/*vision*/}
+                    <div></div>
                             <div className="flex flex-cols h-full container mx-auto px-4 md:py-0 py-6 md:px-8">
                             <div className="w-1/2 min-h-full  flex place-items-end my-auto md:block  md:pt-12">
                                 <div className="font-black md:text-9xl text-4xl">
